@@ -16,14 +16,14 @@ import PackageDescription
 let package = Package(
     name: "FooBar",
     products: [
-        .library(name: "FooBar", targets: ["PlayingCard"]),
+        .library(name: "FooBar", targets: ["FooBar"]),
     ],
     targets: [
         .target(
-            name: "PlayingCard",
+            name: "FooBar",
             dependencies: []),
         .testTarget(
             name: "PlayingCardTests",
-            dependencies: ["PlayingCard"]),
+            dependencies: ["FooBar"]),
     ]
 )
