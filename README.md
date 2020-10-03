@@ -1,2 +1,2 @@
 # FooBar
-this is the foo bar agenda
+Testing Swift Package Manager
