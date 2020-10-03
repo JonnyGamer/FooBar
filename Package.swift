@@ -14,7 +14,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PlayingCard",
+    name: "FooBar",
     products: [
         .library(name: "PlayingCard", targets: ["PlayingCard"]),
     ],
